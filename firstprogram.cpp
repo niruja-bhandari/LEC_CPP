@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 class student{
+    
     char assignment[10];
     int roll;
 public:
