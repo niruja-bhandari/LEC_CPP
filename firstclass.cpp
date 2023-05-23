@@ -3,18 +3,14 @@ using namespace std;
 class Room{
 public:
     int length,breadth,height;
-
-
 void info(){
     cout<<"Enter length breadth and height:";
     cin>>length>>breadth>>height;
 }
-void calculateArea()
-{
- cout<<"The area of the room is :"<<length*breadth<<endl;
+void calculateArea(){
+    cout<<"The area of the room is :"<<length*breadth<<endl;
 }
-void  calculateVolume()
-{
+void  calculateVolume(){
     cout<<"The volume of the room is :"<<length*breadth*height;
 }
 };
