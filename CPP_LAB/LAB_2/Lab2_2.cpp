@@ -12,7 +12,7 @@ int getNum(){
     cout<<"Enter a number: ";
     cin>>a;
     return a;
-};
+}
 
 int main()
 {
