@@ -4,13 +4,13 @@ class Parent{
 protected:
 int id_protected ;
 };
-class Child :public Parent {
+class Child :private Parent {
     public:
-    void setID(int id)
+    void id(int id)
     {
         id_protected=id;
     }
-    void display()
+    void id()
     {
     cout<<"id_protected is : "<<id_protected<<endl;
     }
@@ -18,6 +18,6 @@ class Child :public Parent {
 };
 int main(){
     Child c1;
-    c1.setID(5);
-    c1.display();
+    c1.id(5);
+    c1.id();
 }
